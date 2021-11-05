@@ -38,7 +38,6 @@ export const Heading = styled.h1`
 `;
 
 export const Column = styled.div`
-  /* margin-left: 112px; */
   display: flex;
   flex-direction: row;
   align-items: center;
