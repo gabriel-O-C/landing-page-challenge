@@ -11,6 +11,7 @@ export const theme = {
     gradient: '145.09deg, #26E9CF 11.81%, #25CDE1 95.89%' // background: linear-gradient(145.09deg, #26E9CF 11.81%, #25CDE1 95.89%);
   },
   fonts: {
-    font: 'Inter'
+    inter: 'Inter',
+    fredoka: 'Fredoka One'
   }
 }

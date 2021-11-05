@@ -3,7 +3,7 @@ import { theme } from "../../theme";
 
 export const MenuNav = styled.nav`
   display: flex;
-  font-family: ${(props) => props.theme.fonts.font};
+  font-family: ${(props) => props.theme.fonts.inter};
   font-size: 16px;
   line-height: 22px;
   align-items: center;

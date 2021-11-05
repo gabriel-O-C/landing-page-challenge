@@ -6,7 +6,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: ${(props) => props.theme.fonts.font};
+  font-family: ${(props) => props.theme.fonts.inter};
 `;
 
 export const LogoArea = styled.div`
