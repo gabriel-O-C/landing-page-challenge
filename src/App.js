@@ -1,10 +1,15 @@
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { Header } from "./components";
+import { theme } from "./theme";
 
 
 function App() {
   return (
-    <div>
-      <h1>opa</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Header />
+
+    </ThemeProvider>
   );
 }
 
