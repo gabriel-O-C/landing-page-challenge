@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   background-color: ${(props) => props.theme.colors.primary};
   font-family: ${(props) => props.theme.fonts.inter};
-  height: 100vh;
   width: 100vw;
-  overflow: hidden
 `;
 
 export const TextBox = styled.article`
@@ -66,6 +64,7 @@ export const Img = styled.img`
   height: 526px;
   margin-top: 207px;
   margin-left: 70px;
+
 `;
 
 export const Content = styled.main`
