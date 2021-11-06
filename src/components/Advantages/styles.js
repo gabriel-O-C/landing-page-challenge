@@ -60,4 +60,5 @@ export const CtaArea = styled.div`
   justify-content: center;
   align-items: center;
   margin-right: 120px;
+  margin-top: 44px;
 `;
