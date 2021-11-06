@@ -4,3 +4,4 @@ export { default as Hero } from './Hero';
 export { default as Proof } from './Proof';
 export { default as Cta } from './CtaSection';
 export { default as Advavntages } from './Advantages';
+export { default as TwoColumns } from './TwoColumns';

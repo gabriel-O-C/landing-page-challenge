@@ -12,6 +12,7 @@ export const theme = {
   },
   fonts: {
     inter: 'Inter',
-    fredoka: 'Fredoka One'
+    fredoka: 'Fredoka One',
+    nunito: 'Nunito'
   }
 }
