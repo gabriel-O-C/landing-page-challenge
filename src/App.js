@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { Cta, Header, Hero, TwoColumns } from "./components";
+import { Cards, Cta, Header, Hero, TwoColumns } from "./components";
 import { theme } from "./theme";
 import './index.css'
 
@@ -11,6 +11,7 @@ function App() {
       <Hero />
       <Cta />
       <TwoColumns />
+      <Cards />
 
     </ThemeProvider>
   );

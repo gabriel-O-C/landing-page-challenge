@@ -14,7 +14,7 @@ export const MenuNav = styled.nav`
 
 export const MenuItem = styled.a`
   color: ${props => props.color ?? theme.colors.gray};
-  font-weight: ${props => props.weight ?? 400};
+  font-weight: ${props => props.fontWeight ?? 400};
   text-decoration: none;
   margin: 15px;
 

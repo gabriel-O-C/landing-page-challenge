@@ -9,7 +9,7 @@ const Hero = () => {
       <Column>
         <Content>
           <TextBox>
-            <RobotImg src={Robot} />
+            <RobotImg src={Robot} alt="robo da logo" />
             <SubTitle>Seja aprovado no Enem e Vestibulares {":)"}</SubTitle>
           </TextBox>
           <Heading>Você escolhe<br /> o que aprender<span style={{ color: '#3AFFE5' }}>.</span></Heading>
@@ -19,7 +19,7 @@ const Hero = () => {
           </Description>
           <CtaButton>Veja nossos planos <span style={{ fontSize: 32, marginLeft: 32 }}>→</span></CtaButton>
         </Content>
-        <Img src={HeroImg} />
+        <Img src={HeroImg} alt="menino com celular" />
       </Column>
     </Container>
   )

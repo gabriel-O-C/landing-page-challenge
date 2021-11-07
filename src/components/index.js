@@ -5,3 +5,4 @@ export { default as Proof } from './Proof';
 export { default as Cta } from './CtaSection';
 export { default as Advavntages } from './Advantages';
 export { default as TwoColumns } from './TwoColumns';
+export { default as Cards } from './Cards';
