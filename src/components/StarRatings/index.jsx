@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component";
+import { theme } from '../../theme';
 
 const RatingStars = () => {
   return (
     <ReactStars
-      count={4.5}
-      size={24}
-      activeColor="#ffd700"
+      isHalf
+      count={5}
+      size={20}
+      value={4.5}
+      activeColor={theme.colors.orange}
+      edit={false}
     />
   )
 }

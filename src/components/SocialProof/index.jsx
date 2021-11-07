@@ -1,4 +1,5 @@
 import React from 'react'
+import { Comments } from '../index'
 import { Container, SubTitle, Title } from './styles'
 
 const SocialProof = () => {
@@ -9,6 +10,7 @@ const SocialProof = () => {
         Recomendados por<br />
         quem é expert no assunto
       </Title>
+      <Comments />
     </Container>
   )
 }
