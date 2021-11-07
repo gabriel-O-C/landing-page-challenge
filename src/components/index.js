@@ -6,3 +6,5 @@ export { default as Cta } from './CtaSection';
 export { default as Advavntages } from './Advantages';
 export { default as TwoColumns } from './TwoColumns';
 export { default as Cards } from './Cards';
+export { default as SocialProof } from './SocialProof';
+export { default as StarRatings } from './StarRatings';
