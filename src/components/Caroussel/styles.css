@@ -1,0 +1,12 @@
+.awssld__content{
+  background-color: #ffffff;
+  height: 270px;
+}
+
+.awssld__wrapper{
+  height: 300px;
+}
+
+.awssld__controls__arrow-left{
+  left: 2px;
+}

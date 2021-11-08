@@ -1,17 +1,20 @@
 import React from 'react'
-import { Comments } from '../index'
-import { Container, SubTitle, Title } from './styles'
+import { Carrosel, Comments } from '../index'
+import { Container, SubTitle, TextWrapper, Title } from './styles'
 
 const SocialProof = () => {
   return (
     <Container>
-      <SubTitle>DEPOIMENTOS</SubTitle>
-      <Title>
-        Recomendados por<br />
-        quem é expert no assunto
-      </Title>
-      <Comments />
+      <TextWrapper>
+        <SubTitle>DEPOIMENTOS</SubTitle>
+        <Title>
+          Recomendados por<br />
+          quem é expert no assunto
+        </Title>
+      </TextWrapper>
+      <Carrosel />
     </Container>
+
   )
 }
 

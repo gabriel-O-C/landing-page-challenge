@@ -9,3 +9,4 @@ export { default as Cards } from './Cards';
 export { default as SocialProof } from './SocialProof';
 export { default as StarRatings } from './StarRatings';
 export { default as Comments } from './Comment';
+export { default as Carrosel } from './Caroussel';
