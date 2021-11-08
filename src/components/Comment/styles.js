@@ -13,6 +13,7 @@ export const CardContainer = styled.section`
   justify-content: center;
   margin-left: 15px;
   padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
 `;
 
 export const Description = styled.article`

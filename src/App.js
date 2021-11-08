@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { Cards, Cta, Header, Hero, SocialProof, TwoColumns } from "./components";
+import { Cards, Cta, Header, Hero, PhoneSection, SocialProof, TwoColumns } from "./components";
 import { theme } from "./theme";
 import './index.css'
 
@@ -13,6 +13,7 @@ function App() {
       <TwoColumns />
       <Cards />
       <SocialProof />
+      <PhoneSection />
 
     </ThemeProvider>
   );

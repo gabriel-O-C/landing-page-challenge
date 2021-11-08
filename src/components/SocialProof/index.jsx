@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carrosel, Comments } from '../index'
+import { Carrosel } from '../index'
 import { Container, SubTitle, TextWrapper, Title } from './styles'
 
 const SocialProof = () => {

@@ -1,12 +1,18 @@
 .awssld__content{
   background-color: #ffffff;
-  height: 270px;
 }
 
 .awssld__wrapper{
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .awssld__controls__arrow-left{
-  left: 2px;
+  left: -45px;
+}
+.awssld__controls__arrow-right{
+  top: 20px ;
+  right: -45px;
 }
