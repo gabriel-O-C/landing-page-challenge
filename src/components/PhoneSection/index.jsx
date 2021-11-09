@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, ContentWrapper, Description, Img, ImgArea, RobotImg, TextWrapper, Title } from './styles'
+import { Button, Container, ContentWrapper, Description, Img, ImgArea, RobotImg, TextWrapper, Title } from './styles'
 import Phone from '../../assets/Phone.svg';
 import Robo from '../../assets/robo.svg'
 const PhoneSection = () => {
@@ -19,6 +19,7 @@ const PhoneSection = () => {
           Receba lembretes no seu celular e tenha a facilidade<br /> de estudar a qualquer hora e de qualquer lugar.<br />
           <span style={{ color: 'white', fontWeight: 600 }}>Baixe nosso app e confira.</span>
         </Description>
+        <Button>Conheça nosso aplicativo <span style={{ fontSize: 32, marginLeft: 32 }}>→</span></Button>
 
       </ContentWrapper>
 

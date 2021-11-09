@@ -17,6 +17,7 @@ export const theme = {
     fredoka: 'Fredoka One',
     nunito: 'Nunito',
     dm: 'DMSsans',
-    nunitoS: 'Nunito Sans'
+    nunitoS: 'Nunito Sans',
+    work: 'Work Sans'
   }
 }

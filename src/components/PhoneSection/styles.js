@@ -12,6 +12,7 @@ export const ImgArea = styled.div`
   align-items: flex-start;
   margin-left: 152px;
   z-index: 2;
+  cursor: pointer;
 `;
 
 export const Img = styled.img`
@@ -48,4 +49,21 @@ export const Description = styled.article`
 export const ContentWrapper = styled.div`
   margin-left: 94px;
 
+`;
+
+export const Button = styled.a`
+  text-decoration: none;
+  color: ${props => props.theme.colors.primary};
+  font-family: ${props => props.theme.fonts.dm};
+  font-size: 17px;
+  font-weight: 700;
+  background-color: ${props => props.theme.colors.secondary};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 60px;
+  border-radius: 6px;
+  margin-top: 32px;
+  cursor: pointer;
 `;

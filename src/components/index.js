@@ -11,3 +11,4 @@ export { default as StarRatings } from './StarRatings';
 export { default as Comments } from './Comment';
 export { default as Carrosel } from './Caroussel';
 export { default as PhoneSection } from './PhoneSection';
+export { default as Footer } from './Footer';
