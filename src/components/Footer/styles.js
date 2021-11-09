@@ -6,7 +6,9 @@ export const Container = styled.footer`
   display: flex;
 `;
 
-export const Column = styled.div``;
+export const Column = styled.div`
+  
+`;
 
 export const LogoArea = styled.div`
   margin-bottom: 64px;

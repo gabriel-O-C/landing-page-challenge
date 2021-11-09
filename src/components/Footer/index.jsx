@@ -7,9 +7,16 @@ import copy from '../../assets/copyright.svg';
 import face from '../../assets/facebook.svg';
 import tt from '../../assets/tt.svg';
 import insta from '../../assets/insta.svg';
-import UpArrow from '../../assets/upArrow.svg';
+import UpArrow from '../../assets/Up.svg';
 
 const Footer = () => {
+
+  const goUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
     <>
       <Container>
@@ -50,8 +57,12 @@ const Footer = () => {
             <SocialIcons src={face} alt="facebook logo" />
             <SocialIcons src={tt} alt="twitter logo" />
             <SocialIcons src={insta} alt="instagram logo" />
+            <SocialIcons style={{ marginLeft: '45px' }} src={UpArrow} alt="arrow pointing upwards" onClick={goUp} />
+
           </SocialArea>
         </SocialWrapper>
+        <SocialArea>
+        </SocialArea>
       </Column>
     </>
   )
