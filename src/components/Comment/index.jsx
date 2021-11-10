@@ -1,5 +1,5 @@
 import React from 'react'
-import { StarRatings } from '..'
+import { MobileComment, StarRatings } from '..'
 import { CardContainer, Container, Description, Img, ProfileContainer, ProfileIcon, ProfileName, ProfileTitle, TextWrapper } from './styles';
 import ProfileImg1 from '../../assets/Image.png';
 import ProfileImg2 from '../../assets/Image(1).png';
@@ -8,6 +8,7 @@ import Group from '../../assets/Group.svg'
 const Comment = () => {
   return (
     <Container>
+      <MobileComment />
       <CardContainer>
         <StarRatings />
         <Description>

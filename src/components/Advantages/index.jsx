@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon, Wrapper, TextWrapper, Title, Description, Container, Button, CtaArea } from './styles'
+import { Icon, Wrapper, TextWrapper, Title, Description, Container, Button, CtaArea, IconWrapper } from './styles'
 import Root from '../../assets/root.svg';
 import Box from '../../assets/box.svg';
 import Compass from '../../assets/compass.svg';
@@ -7,7 +7,10 @@ const Advantages = () => {
   return (
     <Container>
       <Wrapper>
-        <Icon src={Root} />
+        <IconWrapper>
+
+          <Icon src={Root} />
+        </IconWrapper>
         <TextWrapper>
           <Title>100% focado em Matemática</Title>
           <Description>
@@ -18,7 +21,9 @@ const Advantages = () => {
         </TextWrapper>
       </Wrapper>
       <Wrapper>
-        <Icon src={Box} />
+        <IconWrapper>
+          <Icon src={Box} />
+        </IconWrapper>
         <TextWrapper>
           <Title>Acompanhamento de perto!</Title>
           <Description>
@@ -28,7 +33,9 @@ const Advantages = () => {
         </TextWrapper>
       </Wrapper>
       <Wrapper>
-        <Icon src={Compass} />
+        <IconWrapper>
+          <Icon src={Compass} />
+        </IconWrapper>
         <TextWrapper>
           <Title>Matemática de um jeito fácil!</Title>
           <Description>

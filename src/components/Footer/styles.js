@@ -4,10 +4,19 @@ export const Container = styled.footer`
   margin-left: 145px;
   margin-top: 86px;
   display: flex;
+
+  @media screen and (max-width: 450px){
+    flex-direction: column;
+    margin-left: 101px;
+    overflow-x: hidden;
+  }
 `;
 
 export const Column = styled.div`
-  
+   @media screen and (max-width: 450px){
+    flex-direction: column;
+    overflow-x: hidden;
+  }
 `;
 
 export const LogoArea = styled.div`
@@ -51,16 +60,30 @@ export const Text = styled.p`
 export const SocialIcons = styled.img`
   margin-right: 20px;
   cursor: pointer;
+
+  @media screen and (max-width: 450px){
+    margin-bottom: 8px;
+  }
 `;
 
 export const SocialArea = styled.div`
   margin-left: 136px;
   margin-bottom: 43px;
   margin-right: 140px;
+
+  @media screen and (max-width: 450px){
+    margin-left: 122px;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const SocialItem = styled.div`
   display: flex;
+
+  @media screen and (max-width: 450px){
+    flex-direction: column;
+  }
 `;
 
 export const CopyRightText = styled.p`
@@ -72,4 +95,23 @@ export const CopyRightText = styled.p`
 export const SocialWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 450px){
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+`;
+
+export const SocialMediaArea = styled.div`
+  @media screen and (max-width: 450px){
+    display: flex;
+  }
+`;
+
+export const GoUpArrow = styled.img`
+  cursor: pointer;  
+  @media screen and (max-width: 450px){
+    margin-top: 60px;
+  }
 `;

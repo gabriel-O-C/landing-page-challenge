@@ -18,6 +18,11 @@ export const MenuItem = styled.a`
   text-decoration: none;
   margin: 15px;
 
+
+  @media screen and (max-width: 450px){
+    display: none;
+  }
+
 `;
 
 export const Button = styled.a`
@@ -32,4 +37,17 @@ export const Button = styled.a`
   align-items: center;
   width: 133px;
   justify-content: center;
+
+  @media screen and (max-width: 450px){
+    display: none;
+  }
+`;
+
+export const MenuBars = styled.img`
+  display: none;
+
+  @media screen and (max-width: 450px){
+    display: block;
+
+  }
 `;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, SubTitle, Title, Wrapper, CardContainer, Cards, CardTSubTitle, CardTitle, ImgArea, TextWrapper, ContentWrapper, ImgTitle, ImgDescription, AdvantagesBox, Icon, AdvantagesItem, AdvantagesTitle, Cipher, PriceBox, FromPrice, MainPrice, ByMonth, Description, PriceWrapper, PromoBox, ButtonArea, Button } from './styles'
+import { Container, SubTitle, Title, Wrapper, CardContainer, Cards, CardTSubTitle, CardTitle, ImgArea, TextWrapper, ContentWrapper, ImgTitle, ImgDescription, AdvantagesBox, Icon, AdvantagesItem, AdvantagesTitle, Cipher, PriceBox, FromPrice, MainPrice, ByMonth, Description, PriceWrapper, PromoBox, ButtonArea, Button, PriceBoxWhite } from './styles'
 import VectorWhite from '../../assets/VectorWhite.svg';
 import Vector from '../../assets/Vector.svg';
 const Card = () => {
@@ -53,8 +53,6 @@ const Card = () => {
           </AdvantagesBox>
           <AdvantagesBox>
             <Icon src={VectorWhite}></Icon>
-
-
             <AdvantagesItem color="#fff">
               Reforço para FUVEST, Unicamp e Vestibulares de Medicina
             </AdvantagesItem>
@@ -110,17 +108,14 @@ const Card = () => {
             <AdvantagesItem >
               Grupo no Whatsapp com professores e alunos
             </AdvantagesItem>
-
           </AdvantagesBox>
-          <AdvantagesBox style={{ marginBottom: '90px' }}>
+          <AdvantagesBox>
             <Icon src={Vector}></Icon>
-
-
             <AdvantagesItem >
               Reforço para FUVEST, Unicamp e Vestibulares de Medicina
             </AdvantagesItem>
           </AdvantagesBox>
-          <PriceBox>
+          <PriceBoxWhite>
             <PromoBox>
               <Cipher>$</Cipher>
               <PriceWrapper style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row' }}>
@@ -132,7 +127,7 @@ const Card = () => {
                 <Button>Eu quero!</Button>
               </ButtonArea>
             </PromoBox>
-          </PriceBox>
+          </PriceBoxWhite>
         </Cards>
       </CardContainer>
     </Container>

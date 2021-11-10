@@ -13,6 +13,12 @@ export const SubTitle = styled.h2`
   margin-bottom: 18px;
   margin-top: 70px;
 
+  @media screen and (max-width: 450px){
+    font-size: 20px;
+    margin-bottom: 4px;
+
+  }
+
 `;
 
 export const Title = styled.h1`
@@ -22,6 +28,12 @@ export const Title = styled.h1`
   line-height: 62px;
   color: ${(props) => props.theme.colors.primary};
   margin-bottom: 58px;
+
+  @media screen and (max-width: 450px){
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 34px;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -31,6 +43,11 @@ export const Wrapper = styled.div`
 export const CardContainer= styled.div`
   margin-left: 135px;
   display: flex;
+
+  @media screen and (max-width: 450px){
+    flex-direction: column;
+    margin-left: 28px;
+  }
 `;
 
 export const Cards = styled.div`
@@ -39,6 +56,13 @@ export const Cards = styled.div`
   height: 692px;
   border-radius: 18px;
   margin-right: 30px;
+
+  @media screen and (max-width: 450px){
+    margin-bottom: 23px;
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+  }
 `;
 
 export const CardTSubTitle = styled.h2`
@@ -51,6 +75,13 @@ export const CardTSubTitle = styled.h2`
   margin-left: 53px;
   margin-top: 63px;
 
+
+  @media screen and (max-width: 450px){
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 29px;
+  }
+
 `;
 
 export const CardTitle = styled.h1`
@@ -60,6 +91,14 @@ export const CardTitle = styled.h1`
   line-height: 48px;
   color: ${(props) => props.theme.colors.white};
   margin-left: 53px;
+
+  @media screen and (max-width: 450px){
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 27px;
+    width: 209px;
+    height: 27px;
+  }
 `;
 
 export const ImgArea = styled.div`
@@ -77,6 +116,11 @@ export const ImgArea = styled.div`
   align-items: center;
   border-radius: 50%;
 
+  @media screen and (max-width: 450px){
+    width: 89px;
+    height: 89px;
+  }
+
 `;
 
 
@@ -87,6 +131,11 @@ export const ImgTitle = styled.h1`
   line-height: 35px;
   color: ${(props) => props.theme.colors.primary};
 
+  @media screen and (max-width: 450px){
+    font-size: 20px;
+    line-height: 27px;
+  }
+
 `;
 
 export const ImgDescription = styled.p`
@@ -95,6 +144,11 @@ export const ImgDescription = styled.p`
   font-weight: 300;
   font-size: 15px;
   line-height: 65px;
+
+  @media screen and (max-width: 450px){
+    font-size: 8px;
+    line-height: 11px;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -119,8 +173,11 @@ export const AdvantagesBox = styled.div`
   align-items: top;
   justify-content: left;
   margin-left: 77px;
-`;
 
+  @media screen and (max-width: 450px){
+    margin-left: 40px;
+  }
+`;
 export const Icon = styled.img`
   color: ${props => props.color ?? props.theme.colors.white};
   width: 12px;
@@ -128,6 +185,9 @@ export const Icon = styled.img`
   margin-right: 20px;
   margin-bottom: 10px;
 
+  @media screen and (max-width: 450px){
+    margin-right: 9px;
+  }
 `;
 
 export const AdvantagesItem = styled.div`
@@ -136,6 +196,12 @@ export const AdvantagesItem = styled.div`
   line-height: 30px;
   color: ${props => props.color ?? props.theme.colors.primary};
   margin-bottom: 14px;
+
+  @media screen and (max-width: 450px){
+    font-size: 9px;
+    line-height: 14px;
+    width: 227px;
+  }
 `;
 
 export const PriceBox = styled.div`
@@ -145,6 +211,26 @@ export const PriceBox = styled.div`
   justify-content: center;
   align-items: left;
   flex-direction: column;
+
+
+  @media screen and (max-width: 450px){
+    margin-left: 39px;
+    margin-top: 0;
+  }
+`;
+
+export const PriceBoxWhite = styled.div`
+  margin-left: 70px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+
+  @media screen and (max-width: 450px){
+    margin-left: 39px;
+    margin-top: 0;
+  }
 `;
 
 export const Cipher = styled.h1`
@@ -154,6 +240,11 @@ export const Cipher = styled.h1`
   color: ${(props) => props.theme.colors.secondary};
   margin-right: 14px;
   margin-top: 20px;
+
+  @media screen and (max-width: 450px){
+    font-size: 11px;
+    line-height: 36px;
+  }
 `;
 
 export const FromPrice = styled.sup`  
@@ -162,6 +253,10 @@ export const FromPrice = styled.sup`
   font-weight: 300;
   color: rgba(255, 255, 255, 0.45);
   margin-bottom: 8px;
+
+  @media screen and (max-width: 450px){
+    font-size: 8px;
+  }
 `;
 
 export const MainPrice = styled.p`
@@ -169,6 +264,10 @@ export const MainPrice = styled.p`
   font-family: ${(props) => props.theme.fonts.nunitoS};
   font-weight: 800;
   font-size: 37px;
+
+  @media screen and (max-width: 450px){
+    font-size: 20px;
+  }
 `;
 
 export const ByMonth = styled.span`
@@ -176,6 +275,10 @@ export const ByMonth = styled.span`
   font-size: 15px;
   font-weight: 700;
   color: ${props => props.color ?? props.theme.colors.whiteRgba};
+
+  @media screen and (max-width: 450px){
+    font-size: 8px;
+  }
 `;
 
 export const Description = styled.p`
@@ -183,6 +286,11 @@ export const Description = styled.p`
   font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.45);
+
+
+  @media screen and (max-width: 450px){
+    font-size: 8px;
+  }
 `;
 
 export const PriceWrapper = styled.div`
@@ -192,6 +300,8 @@ export const PriceWrapper = styled.div`
 
 export const PromoBox = styled.div`
   display: flex;
+
+ 
 `;
 
 export const ButtonArea = styled.div`
@@ -206,6 +316,12 @@ export const ButtonArea = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
+  @media screen and (max-width: 450px){
+    width: 111px;
+    height: 33px;
+    margin-top: 0;
+  }
 `;
 
 export const Button = styled.div`
@@ -216,5 +332,10 @@ export const Button = styled.div`
   justify-content: center;
   align-items: center;
   color: ${(props) => props.theme.colors.white};
+
+  @media screen and (max-width: 450px){
+    font-size: 10px;
+    line-height: 13px;
+  }
 
 `;

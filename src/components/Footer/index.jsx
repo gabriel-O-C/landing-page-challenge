@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, LogoArea, Logo, StoreArea, StoreIcon, InfoArea, Title, Text, Column, SocialArea, SocialItem, SocialIcons, CopyRightText, SocialWrapper } from './styles'
+import { Container, LogoArea, Logo, StoreArea, StoreIcon, InfoArea, Title, Text, Column, SocialArea, SocialItem, SocialIcons, CopyRightText, SocialWrapper, SocialMediaArea, GoUpArrow } from './styles'
 import logo from '../../assets/logo.svg';
 import google from '../../assets/google.png';
 import apple from '../../assets/apple.png';
@@ -54,15 +54,14 @@ const Footer = () => {
             </SocialItem>
           </SocialArea>
           <SocialArea>
-            <SocialIcons src={face} alt="facebook logo" />
-            <SocialIcons src={tt} alt="twitter logo" />
-            <SocialIcons src={insta} alt="instagram logo" />
-            <SocialIcons style={{ marginLeft: '45px' }} src={UpArrow} alt="arrow pointing upwards" onClick={goUp} />
-
+            <SocialMediaArea>
+              <SocialIcons src={face} alt="facebook logo" />
+              <SocialIcons src={tt} alt="twitter logo" />
+              <SocialIcons src={insta} alt="instagram logo" />
+              <GoUpArrow src={UpArrow} alt="arrow pointing upwards" onClick={goUp} />
+            </SocialMediaArea>
           </SocialArea>
         </SocialWrapper>
-        <SocialArea>
-        </SocialArea>
       </Column>
     </>
   )

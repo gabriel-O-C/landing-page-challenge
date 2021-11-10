@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Container, ContentWrapper, Description, Img, ImgArea, RobotImg, TextWrapper, Title } from './styles'
+import { Button, Container, ContentWrapper, Description, Img, ImgArea, ImgAreaMobile, RobotImg, TextWrapper, Title } from './styles'
 import Phone from '../../assets/Phone.svg';
 import Robo from '../../assets/robo.svg'
 const PhoneSection = () => {
@@ -22,7 +22,9 @@ const PhoneSection = () => {
         <Button>Conheça nosso aplicativo <span style={{ fontSize: 32, marginLeft: 32 }}>→</span></Button>
 
       </ContentWrapper>
-
+      <ImgAreaMobile>
+        <Img src={Phone} alt="tela da plataforma" />
+      </ImgAreaMobile>
     </Container>
   )
 }

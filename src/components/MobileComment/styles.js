@@ -1,24 +1,21 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  display: flex;
-`;
-
 export const CardContainer = styled.section`
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.22);
   width: 370px;
   height: 270px;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   margin-left: 15px;
   padding: 15px;
   border: 1px solid rgba(0, 0, 0, 0.22);
 
+
   @media screen and (max-width:450px){
     width: 340px;
     height: 248px;
-    display: none;
+    display: flex;
   }
 `;
 
